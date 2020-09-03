@@ -1,0 +1,17 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  title: MyString
+  year: MyString
+  imdbId: MyString
+  type: 
+  poster: MyString
+  user_id: 1
+
+two:
+  title: MyString
+  year: MyString
+  imdbId: MyString
+  type: 
+  poster: MyString
+  user_id: 1
