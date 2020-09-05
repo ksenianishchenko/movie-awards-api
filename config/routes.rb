@@ -5,7 +5,7 @@ Rails.application.routes.draw do
   delete '/logout', to: 'sessions#destroy'
   get '/logged_in', to: 'sessions#is_logged_in?'
 
-  get '/nominates', to: 'movies#find_nominates'
+  get '/nominates/:id', to: 'movies#find_nominates'
 
   resources :users, only: [:create, :show, :index]
   resources :movies, only: [:create, :show, :index, :destroy]

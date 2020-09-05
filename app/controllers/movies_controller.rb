@@ -49,7 +49,7 @@ class MoviesController < ApplicationController
   end
 
   def find_nominates
-    @nominates = Movie.where("user_id = ?", current_user.id)
+    @nominates = Movie.where("user_id = ?", params[:id])
 
     if @nominates
       render json: {
