@@ -13,5 +13,7 @@ module MovieAwardsApi
 
     config.api_only = true
 
+    config.hosts << ".herokuapp.com"
+
   end
 end
